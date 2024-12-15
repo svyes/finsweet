@@ -1,0 +1,915 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+div#navbar {
+    display: flex;
+    width: 1700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 50px;
+    text-decoration: none;
+    height: 70px;
+}
+
+span#logo {
+    top: -2px;
+    color: #111111;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    font-style: normal;
+    position: relative;
+
+}
+
+span#home {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #0B0706;
+}
+
+span#about {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+
+    text-decoration-skip-ink: none;
+    color: #525560;
+}
+
+span#what {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+
+    text-decoration-skip-ink: none;
+    color: #525560;
+}
+
+span#media {
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #525560;
+}
+
+span#Contant {
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #525560;
+}
+
+button#Donate {
+    margin-left: 100px;
+    width: 115px;
+    height: 43px;
+    top: 12px;
+    left: 1274.5px;
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #1D2130;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border: none;
+}
+
+button#Donate:hover {
+    margin-left: 100px;
+    width: 115px;
+    height: 43px;
+    top: 12px;
+    left: 1274.5px;
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: white;
+    color: #1D2130;
+    font-family: "Roboto", sans-serif;
+    border: #1D2130 solid;
+    transition: 0.5s;
+}
+
+span#do {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    top: 6cm;
+    margin-left: 230px;
+    color: #1D2130;
+    line-height: 18.75px;
+    letter-spacing: 2px;
+    text-decoration-skip-ink: none;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+}
+
+.line {
+    height: 2px;
+    background: #1D2130;
+    width: 70px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 150px;
+    top: 1cm;
+    top: 64px;
+}
+
+h1#working {
+    margin-left: 230px;
+    margin-top: 100px;
+    width: 400px;
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #1D2130;
+}
+
+p#working {
+    bottom: 10px;
+    margin-top: 20px;
+    margin-left: 230px;
+    width: 594px;
+    font-family: "Roboto", sans-serif;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #525560;
+    padding-bottom: 100px;
+}
+
+img#picture1 {
+    width: 400px;
+    height: 300px;
+    left: 910px;
+    border-radius: 12px 0px 0px 0px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: -400px;
+    position: absolute;
+}
+
+div#whatwe {
+    width: 1900px;
+    height: 574px;
+    top: 643px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #EFF7F2;
+}
+
+h2#environment {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    right: 200px;
+    width: fit-content;
+    padding-top: 30px;
+    padding-left: 90px;
+    color: #1D2130;
+}
+
+div#row1 {
+    width: 1280px;
+    height: 252px;
+    top: 861px;
+    left: 110px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+div#build {
+    width: 332px;
+    height: 102px;
+    top: 861px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 200px;
+}
+
+h3#build {
+    width: 205px;
+    height: 28px;
+    top: 861px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+p#build {
+    padding-top: 10px;
+    width: 332px;
+    height: 66px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+div#protect {
+    width: 332px;
+    left: 200px;
+    height: 102px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+h3#protect {
+    width: 244px;
+    height: 28px;
+    left: 610px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+p#protect {
+    width: 332px;
+    height: 66px;
+    top: 897px;
+    left: 610px;
+    gap: 0px;
+    opacity: 0.7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding-top: 10px;
+}
+
+div#tree {
+    width: 332px;
+    height: 100px;
+    left: 400px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+h3#tree {
+    width: 164px;
+    height: 28px;
+    top: 861px;
+    left: 1058px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+p#tree {
+    width: 332px;
+    height: 66px;
+    top: 895px;
+    left: 1058px;
+    gap: 0px;
+    opacity: 0.7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding-top: 10px;
+}
+
+div#water {
+    top: 40px;
+    width: 332px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+h3#water {
+    width: 214px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+p#water {
+    width: 332px;
+    height: 66px;
+    top: 1047px;
+    left: 162px;
+    gap: 0px;
+    opacity: 0.7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding-top: 10px;
+}
+
+div#animal {
+    width: 332px;
+    height: 102px;
+    gap: 0px;
+    opacity: 0px;
+    left: 300px;
+    position: relative;
+    top: 40px;
+}
+
+h3#animal {
+    width: 149px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+p#animal {
+    width: 332px;
+    height: 66px;
+    gap: 0px;
+    opacity: 0.7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding-top: 10px;
+}
+
+div#biodiversity {
+    width: 332px;
+    height: 102px;
+    gap: 0px;
+    opacity: 0px;
+    top: 40px;
+    position: relative;
+    left: 430px;
+}
+
+h3#biodiversity {
+    width: 128px;
+    height: 28px;
+    top: 1011px;
+    left: 1058px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+p#biodiversity {
+    width: 332px;
+    height: 66px;
+    gap: 0px;
+    opacity: 0.7px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding-top: 10px;
+}
+
+div#Projects {
+    top: 130px;
+    width: 700px;
+    height: 151px;
+    left: 600px;
+    gap: 0px;
+    opacity: 0px;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+}
+
+span#Projects {
+    width: 238px;
+    height: 19px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #1D2130;
+    position: relative;
+
+}
+
+h2#Projects {
+    width: 700px;
+    height: 116px;
+    top: 20px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+div#seemore {
+    padding-right: 400px;
+    padding-top: 300px;
+    width: 1280px;
+    height: 421px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    top: -100px;
+    position: relative;
+}
+
+div#treeplantation {
+    width: 411px;
+    height: 421px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    margin-left: 160px;
+}
+
+img#treeplantation {
+    width: 411px;
+    height: 421px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    width: 411px;
+    height: 421px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    background-color: #0B0706;
+    position: relative;
+}
+
+div#ktba1 {
+    width: 315px;
+    height: 293px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    top: -350px;
+    position: relative;
+    left: 50px;
+}
+
+h3#treeplantation {
+    width: 315px;
+    height: 84px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+p#treeplantation {
+    width: 315px;
+    height: 78px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 20px;
+}
+
+button#treeplantation {
+    top: 60px;
+    width: 132px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    position: relative;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+div#clean {
+    width: 411px;
+    height: 421px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    margin-left: 200px;
+}
+
+img#clean {
+    width: 411px;
+    height: 421px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+div#ktba2 {
+    width: 315px;
+    height: 293px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+    top: -350px;
+    left: 50px;
+}
+
+h3#clean {
+    width: 315px;
+    height: 84px;
+    top: -305.46px;
+    left: -157px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+p#clean {
+    width: 315px;
+    height: 78px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 20px;
+}
+
+button#clean {
+    width: 132px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    top: 60px;
+    position: relative;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+div#wildlife {
+    width: 411px;
+    height: 421px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    margin-left: 200px;
+}
+
+img#wildlife {
+    width: 411px;
+    height: 421px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+div#ktba3 {
+    width: 315px;
+    height: 293px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+    top: -350px;
+    left: 50px;
+}
+
+h3#wildlife {
+    width: 315px;
+    height: 84px;
+    top: -305.46px;
+    left: 277px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+p#wildlife {
+    width: 315px;
+    height: 78px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    position: relative;
+    top: 20px;
+    color: #FFFFFF;
+}
+
+button#wildlife {
+    width: 132px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    top: 60px;
+    position: relative;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+div#greener {
+    right: 100px;
+    width: 1280px;
+    height: 384px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+img#greener {
+    margin-left: 60px;
+    width: 1650px;
+    height: 384px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+    padding-left: 200px;
+}
+
+div#contribute {
+    top: -300px;
+    left: 750px;
+    width: 631px;
+    height: 199px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+h2#greener {
+    width: 631px;
+    height: 116px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+div#greenerbtn {
+    width: 347px;
+    height: 51px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    padding-top: 40px;
+    left: 150px;
+    position: relative;
+}
+
+button#volunteer {
+    right: 40px;
+    width: 210px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #70C174;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: right;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    border: none;
+    position: relative;
+}
+
+button#greenerbtn {
+    width: 115px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+div#News {
+    width: 1280px;
+    height: 432px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+div#readournews {
+    width: 1280px;
+    height: 56px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+span#readournews {
+    width: 275px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color:#1D2130 ;
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+
+div#line2 {
+    width: 1360px;
+    height: 2px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #E5E5E5;
+    left: 450px;
+    position: relative;
+    top: 75px;
+}
+div#News{width: 1280px;
+    height: 432px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    }
+    div#main3{width: 1280px;
+        height: 328px;
+        gap: 0px;
+        border-radius: 8px 0px 0px 0px;
+        opacity: 0px;
+        }
+        div#pic1{width: 302px;
+            height: 328px;
+            gap: 0px;
+            border-radius: 8px 0px 0px 0px;
+            opacity: 0px;
+            }
+            img#pic1{width: 302px;
+                height: 192px;
+                gap: 0px;
+                border-radius: 8px 0px 0px 0px;
+                opacity: 0px;
+                }
+                h4#pic1{width: 290px;
+                    height: 60px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    text-align: left;
+                    }
+                    
